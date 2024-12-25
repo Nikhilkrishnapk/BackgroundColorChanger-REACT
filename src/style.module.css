@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.container{
+    height: 100vh;
+}
+.mainHead{
+    font-style:italic;
+    color :black;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    font-style: italic;
+    color: black;
+    height: 50px;
+    width:75px;
+    margin: 10px;
+    border:2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btnContainer{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
